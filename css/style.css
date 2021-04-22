@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/bg-top.svg"), url("./images/bg-bottom.svg");
+  background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
   background-color: var(--veryLightGrayishBlue);
@@ -40,7 +40,13 @@ header h1 {
 }
 
 header span {
+  display: flex;
   color: var(--lightGrayishBlue);
+  align-items:center;
+}
+
+.switch{
+  margin: 0 20px;
 }
 
 .container {
@@ -102,9 +108,25 @@ header span {
   cursor: pointer;
 }
 
+.learn-more-btn:hover{
+  background: white;
+  color: var(--gradientColor2);
+  outline: 1px solid var(--gradientColor2);
+}
+
 .highlight .learn-more-btn {
   color: var(--gradientColor2);
   background: white;
+}
+
+.highlight .learn-more-btn:hover{
+  color: white;
+  outline: 1px solid white;
+  background: transparent;
+}
+
+.hidden{
+  display: none;
 }
 
 .attribution {

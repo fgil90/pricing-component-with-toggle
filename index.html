@@ -12,13 +12,14 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/toggleButton.css">
 
     <title>Frontend Mentor | Pricing Component With Toggle</title>
     
@@ -28,7 +29,10 @@
       <h1>Our Pricing</h1>
       <span>
         Annually
-        <input type="checkbox" />
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
         Monthly
       </span>
     </header>
@@ -71,5 +75,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Felipe Gil</a>.
     </div>
+
+    <script type="text/javascript" src="./js/scripts.js"></script>
   </body>
 </html>
