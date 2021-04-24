@@ -1,5 +1,5 @@
 
-selector = document.querySelector('.slider.round');
+selector = document.querySelector('#switch');
 
 annualPrices = document.querySelectorAll('.annually');
 monthlyPrices = document.querySelectorAll('.monthly');
